@@ -1,0 +1,189 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background: #eff2f7;
+}
+
+li, a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Bagian Navbar */
+
+header{position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #242524;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    height: 50px;
+    width: 150px;
+    margin-left: 5%;
+}
+
+.nav_bsona{
+    list-style: none;
+    float: right;
+    margin-right: 5%;
+}
+
+.nav_bsona li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav_bsona li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_bsona li a:hover{
+    color: rgb(221, 209, 33);
+}
+
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
+
+/* Bagian Home..*/
+
+#Home{
+    height      : 10%;
+    font-size   : 15px;
+    padding-bottom: 30px;
+    text-align  : center;
+    padding-top : 40px;
+    background-color: lightgray;
+}
+
+.Profile{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-color: lightgray;
+}
+
+.bawahnyah2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    text-shadow: #000;
+
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Bagian About */
+
+#About{
+    font-size   : 20px;
+    text-align  : center;
+    padding-top : 1px;
+}
+
+#Content-kiri{
+    float: left;
+    width: 500px;
+    margin: auto;
+    height      : 10%;
+    font-size   : 15px;
+    text-align  : center;
+    padding-top : 10px;
+    margin-left: 10%;
+    padding-bottom: 10px;
+}
+
+#Content-kanan{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    height      : 10%;
+    font-size   : 15px;
+    text-align  : center;
+    padding-top : 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Gallery */
+
+.Gallery{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    background-image: url(img/thumbs/6.jpg);
+}
+.thumbnail {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 225px;
+    margin: 10px;
+    float: left;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+/* Contact */
+
+.Contact{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #81ecec;
+}
+
+.facebook{
+    border-radius: 25%;
+    width: 35px;
+    height: 35px;
+}
+
+.instagram{
+    border-radius: 25%;
+    width: 35px;
+    height: 35px;
+}
+
+.linkedin{
+    border-radius: 25%;
+    width: 35px;
+    height: 35px;
+}
+
+/* footer */
+
+.footer{
+    padding: 0rem 1rem;
+    text-align: center;
+    background: #242524;
+    font-weight: normal;
+    color: #ecf0f1;
+}
